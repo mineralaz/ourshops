@@ -37,7 +37,6 @@ function AddShopForm(props) {
         .required('required field'),
     }),
     onSubmit: async (values) => {
-      console.log('values ===', values);
       const url = `${import.meta.env.VITE_REAL_DB_URL}/shops.json`;
       const [response, error] = await sendPostRequest(values, url);
       successNotify('Shop was succesfully added');
