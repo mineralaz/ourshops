@@ -1,0 +1,19 @@
+.formDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.formDesc h3 {
+  color: #333;
+  text-shadow: 1px 1px #fff;
+}
+.formDesc p {
+  max-width: 400px;
+  color: snow;
+  text-shadow: 1px 1px #444;
+  font-weight: 600;
+}
+.alignRight {
+  text-align: right;
+}

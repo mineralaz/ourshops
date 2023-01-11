@@ -1,0 +1,22 @@
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 260px;
+  border-radius: 5px;
+  background-color: rgb(255, 250, 250, 0.7);
+  padding: 15px 30px;
+}
+.registerForm h3 {
+  color: #7971ea;
+  margin-bottom: 0.5rem;
+}
+.registerForm input {
+  width: 200px;
+}
+.regContainer {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
