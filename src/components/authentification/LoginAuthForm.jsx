@@ -42,7 +42,6 @@ function LoginAuthForm(props) {
   return (
     <div className={css.loginContainer}>
       <form onSubmit={formik.handleSubmit} className={css.loginForm}>
-        <h3>Login</h3>
         <Input
           type="email"
           name="email"

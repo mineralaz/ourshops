@@ -45,7 +45,6 @@ function RegisterAuthForm(props) {
       </FormDescription>
 
       <form onSubmit={formik.handleSubmit} className={css.registerForm}>
-        <h3>Register</h3>
         <Input
           type="email"
           name="email"
