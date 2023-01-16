@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--grey);
+  margin-top: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: rgb(192, 192, 192);
+}
+.footerDivide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.footerText h3 {
+  color: var(--yellowGreen);
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
+}
