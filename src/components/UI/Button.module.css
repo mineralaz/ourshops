@@ -2,7 +2,7 @@
   border: none;
   padding: 10px 20px;
   color: #fff;
-  background: #7971ea;
+  background: var(--grey);
   border-radius: 30px;
   font-weight: 900;
   text-transform: uppercase;
@@ -10,5 +10,6 @@
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #5a50e5;
+  background-color: var(--yellowGreen);
+  color: var(--grey);
 }
