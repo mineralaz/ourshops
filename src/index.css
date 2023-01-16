@@ -28,7 +28,7 @@ select {
   font-size: 16px;
   padding: 0.3em 0.8em;
   border-radius: 4px;
-  border: 1px solid gray;
+  border: 1px solid var(--grey);
 }
 textarea {
   min-height: 8rem;

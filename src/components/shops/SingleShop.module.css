@@ -5,14 +5,9 @@
   justify-content: space-between;
   padding-bottom: 1rem;
   border-radius: 5px;
-  background-color: rgb(255, 250, 250, 0.7);
-  transition: 0.3s all ease-in;
-  top: 0;
+  background-color: snow;
 }
-.shop:hover {
-  box-shadow: 0 5px 15px 2px #7971ea;
-  top: -10px;
-}
+
 .shop__img {
   width: 100%;
   height: 140px;

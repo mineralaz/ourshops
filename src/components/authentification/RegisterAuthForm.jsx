@@ -39,7 +39,7 @@ function RegisterAuthForm(props) {
   });
   return (
     <div className={css.regContainer}>
-      <FormDescription formName="Please register" right>
+      <FormDescription formName="Register" right>
         Only registered users are able to see our sponsored shops or even add
         their own shop to be sponsored
       </FormDescription>

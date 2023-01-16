@@ -1,8 +1,10 @@
 .regText {
-  color: #222;
-  font-weight: 600;
-  padding-left: 15.5rem;
+  color: snow;
+  padding-left: 14rem;
+  margin-top: 0.5rem;
+  font-size: 14px;
 }
 .regText_link {
   font-weight: bold;
+  color: var(--yellowGreen);
 }

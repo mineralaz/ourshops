@@ -50,7 +50,6 @@ function AddShopForm(props) {
         By doing it you will end up getting even more customers
       </FormDescription>
       <form onSubmit={formik.handleSubmit} className={css.addShopForm}>
-        <h4>Your shop</h4>
         <Input
           type="text"
           name="shopName"

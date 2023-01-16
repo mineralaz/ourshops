@@ -62,7 +62,7 @@ function LoginAuthForm(props) {
         />
         <Button type="submit">Login</Button>
       </form>
-      <FormDescription formName="Please login">
+      <FormDescription formName="Login">
         Only by logging in you will be able to see our sponsored shops or even
         add yours
       </FormDescription>
