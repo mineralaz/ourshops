@@ -15,7 +15,7 @@ function Header(props) {
 
   return (
     <header
-      className={small ? `${css.header} ${css.bgTransparent}` : css.header}
+      className={css.header}
     >
       <Link to="/" className={css.logo}>
         OurShops
