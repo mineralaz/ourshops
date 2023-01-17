@@ -3,6 +3,7 @@
   width: 100%;
   color: var(--grey);
   margin-top: 1rem;
+  height: 120px;
 }
 .darkFooter {
   background-color: var(--grey);

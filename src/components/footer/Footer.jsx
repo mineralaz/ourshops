@@ -5,7 +5,7 @@ function Footer(props) {
     <footer
       className={props.dark ? `${css.footer} ${css.darkFooter}` : css.footer}
     >
-      <div className={`${css.footerDivide} container`}>
+      <div className={`${css.footerDivide}`}>
         <div className={css.footerText}>
           <h3>Like what you see?</h3>
           <p>Contact me if you have a job offer</p>
