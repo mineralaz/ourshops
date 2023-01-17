@@ -31,6 +31,7 @@ function AddShopForm(props) {
         .required('required field'),
       description: Yup.string()
         .min(6, 'Too short. Min 6 symbols')
+        .max(100, 'Too long. Max 100 symbols')
         .required('required field'),
       imageUrl: Yup.string()
         .min(5, 'Too short. Min 5 symbols')
