@@ -2,7 +2,9 @@ import Icon from '../UI/Icon';
 import css from './Footer.module.css';
 function Footer(props) {
   return (
-    <div className={css.footer}>
+    <footer
+      className={props.dark ? `${css.footer} ${css.darkFooter}` : css.footer}
+    >
       <div className={`${css.footerDivide} container`}>
         <div className={css.footerText}>
           <h3>Like what you see?</h3>
@@ -27,7 +29,7 @@ function Footer(props) {
           </li>
         </ul>
       </div>
-    </div>
+    </footer>
   );
 }
 export default Footer;

@@ -1,10 +1,12 @@
 .footer {
-  background-color: var(--grey);
-  margin-top: 1rem;
-  position: fixed;
-  bottom: 0;
+  background-color: snow;
   width: 100%;
-  color: rgb(192, 192, 192);
+  color: var(--grey);
+  margin-top: 1rem;
+}
+.darkFooter {
+  background-color: var(--grey);
+  color: snow;
 }
 .footerDivide {
   display: flex;

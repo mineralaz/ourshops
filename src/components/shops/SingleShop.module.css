@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding-bottom: 1rem;
   border-radius: 5px;
-  background-color: snow;
+  background-color: var(--grey);
 }
 
 .shop__img {
@@ -16,14 +16,14 @@
   margin: 1rem;
   font-size: 1.3rem;
   text-align: center;
-  color: #333;
+  color: var(--yellowGreen);
 }
 .shop__desc {
   margin: 1rem 1rem 2rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   line-height: 1.4rem;
-  color: #333;
+  color: snow;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 1px;
