@@ -47,7 +47,7 @@ function AddShopForm(props) {
   });
   return (
     <div className={css.addShopFormContainer}>
-      <FormDescription formName="Feel free to add your shop" right>
+      <FormDescription formName="Feel free to add your shop" right full>
         By doing it you will end up getting even more customers
       </FormDescription>
       <form onSubmit={formik.handleSubmit} className={css.addShopForm}>

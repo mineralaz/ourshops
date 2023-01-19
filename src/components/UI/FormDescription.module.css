@@ -8,11 +8,14 @@
   color: var(--yellowGreen);
   font-size: 2rem;
 }
-.formDesc p {
+.formDescText {
   max-width: 400px;
   color: snow;
   font-weight: 600;
 }
 .alignRight {
   text-align: right;
+}
+.fullWidth {
+  max-width: fit-content;
 }
