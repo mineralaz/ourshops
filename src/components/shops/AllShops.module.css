@@ -6,6 +6,6 @@
   padding: 0;
 }
 .noShops {
-  color: #fff;
+  color: var(--grey);
   font-size: 1.5rem;
 }
