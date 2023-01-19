@@ -1,0 +1,18 @@
+.cards_section {
+  display: flex;
+  flex-direction: column;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.objective {
+  font-size: 3rem;
+  color: snow;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+.objective:last-of-type {
+  margin-bottom: 4rem;
+}
