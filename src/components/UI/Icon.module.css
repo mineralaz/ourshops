@@ -1,3 +1,6 @@
 .yellow {
   color: var(--yellowGreen);
 }
+.grey {
+  color: darkgray;
+}
