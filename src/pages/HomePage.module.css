@@ -7,3 +7,8 @@
     url('../assets/shops.jpg');
   background-size: cover;
 }
+@media screen and (max-width: 425px) {
+  .homePage {
+    background-position: -850px;
+  }
+}
