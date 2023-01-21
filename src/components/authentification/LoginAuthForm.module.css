@@ -19,3 +19,14 @@
 .loginForm input {
   width: 200px;
 }
+
+@media screen and (max-width: 425px) {
+  .loginContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    padding-top: 5rem;
+  }
+}
