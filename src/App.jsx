@@ -14,19 +14,19 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <ProtectedRoute path="/add-shop">
+        <ProtectedRoute path="ourshops/add-shop">
           <AddShopPage />
         </ProtectedRoute>
-        <ProtectedRoute path="/shops">
+        <ProtectedRoute path="ourshops/shops">
           <ShopsPage />
         </ProtectedRoute>
-        <Route path="/register">
+        <Route path="ourshops/register">
           <RegisterPage />
         </Route>
-        <Route path="/login">
+        <Route path="ourshops/login">
           <LoginPage />
         </Route>
-        <Route path="/" exact>
+        <Route path="ourshops/" exact>
           <HomePage />
         </Route>
       </Switch>
