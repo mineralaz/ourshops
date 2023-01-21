@@ -23,4 +23,7 @@
   .alignRight {
     text-align: center;
   }
+  .formDesc h3 {
+    font-size: 1.5rem;
+  }
 }

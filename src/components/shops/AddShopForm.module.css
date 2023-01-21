@@ -15,11 +15,6 @@
   padding: 20px;
   margin: 20px 0;
 }
-.addShopForm h4 {
-  color: #7971ea;
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-}
 .addShopForm input,
 textarea {
   width: 300px;
@@ -30,4 +25,25 @@ textarea {
 }
 .twoInpInline input {
   width: 146px;
+}
+@media screen and (max-width: 425px) {
+  .addShopFormContainer {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .addShopForm {
+    width: 300px;
+    place-self: center;
+  }
+  .addShopForm input,
+  textarea {
+    width: 240px;
+  }
+  .addShopForm input,
+  textarea ::placeholder {
+    font-size: 14px;
+  }
+  .twoInpInline input {
+    width: 116px;
+  }
 }
