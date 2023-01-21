@@ -32,3 +32,14 @@ ul li {
   gap: 2rem;
   margin-bottom: 0.5rem;
 }
+@media screen and (max-width: 425px) {
+  .footer {
+    padding-top: 2rem;
+    height: 250px;
+    text-align: center;
+  }
+  .footerDivide {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
