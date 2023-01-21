@@ -13,3 +13,9 @@
   background-color: var(--yellowGreen);
   color: var(--grey);
 }
+@media screen and (max-width: 425px) {
+  .btn {
+    padding: 7px 14px;
+    font-size: 12px;
+  }
+}

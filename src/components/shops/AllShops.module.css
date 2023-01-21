@@ -9,3 +9,9 @@
   color: snow;
   font-size: 1.5rem;
 }
+@media screen and (max-width: 425px) {
+  .shopList {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+}

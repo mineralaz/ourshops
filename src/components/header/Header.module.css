@@ -16,6 +16,9 @@
   margin: 0;
   gap: 0.7rem;
 }
+.header ul li {
+  margin: 0;
+}
 .header button {
   margin-left: 20px;
 }
@@ -35,4 +38,12 @@
   color: var(--grey);
   font-weight: 900;
   position: relative;
+}
+@media screen and (max-width: 425px) {
+  .logo {
+    font-size: 1rem;
+  }
+  .navLink {
+    font-size: 12px;
+  }
 }
