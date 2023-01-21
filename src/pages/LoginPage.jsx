@@ -1,9 +1,9 @@
 import LoginAuthForm from '../components/authentification/LoginAuthForm';
-import PageTitle from '../components/UI/PageTitle';
+import css from './LoginPage.module.css';
 
 function LoginPage(props) {
   return (
-    <div className="container">
+    <div className={`${css.loginPage}`}>
       <LoginAuthForm />
     </div>
   );

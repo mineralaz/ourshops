@@ -1,9 +1,9 @@
 import RegisterAuthForm from '../components/authentification/RegisterAuthForm';
-import PageTitle from '../components/UI/PageTitle';
+import css from './RegisterPage.module.css';
 
 function RegisterPage(props) {
   return (
-    <div className="container">
+    <div className={css.registerPage}>
       <RegisterAuthForm />
     </div>
   );
